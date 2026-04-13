@@ -1,8 +1,8 @@
-from planner import plan_task
-from dev import build_code
-from web import browse
-from router import route
-from caveman import clean_output
+from workers.planner import plan_task
+from workers.dev import build_code
+from tools.web import browse
+from plugins.router import route
+from plugins.caveman import clean_output
 
 def run_agent():
     task = input("Enter your task: ")

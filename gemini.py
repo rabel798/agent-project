@@ -1,6 +1,6 @@
 import requests
 
-from .env import API_KEY
+API_KEY = "YOUR_API_KEY"
 
 def call_gemini(prompt):
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={API_KEY}"
